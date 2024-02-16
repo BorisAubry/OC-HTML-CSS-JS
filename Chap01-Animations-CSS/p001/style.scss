@@ -1,5 +1,5 @@
-$cd-btn: #3b546d;
-$cd-txt: #15DEA5;
+$cd-btn: #abc99a77;
+$cd-txt: #042c21;
 
 *,
 *::after,
@@ -15,10 +15,10 @@ html {
 
 body {
     box-sizing: border-box;
-    background: #fff;
+    background: #ffffff;
     color: $cd-txt;
     height: 100%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto';
   }
 
 .container {
@@ -31,7 +31,7 @@ body {
 .btn {
     background: $cd-btn;
     color: $cd-txt;
-    font-size: 3rem;
+    font-size: 1rem;
     cursor: pointer;
     padding: 1.85rem 3rem;
     border-radius: 10rem;

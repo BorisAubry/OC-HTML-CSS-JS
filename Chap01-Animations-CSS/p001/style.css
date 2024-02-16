@@ -12,10 +12,10 @@ html {
 
 body {
   box-sizing: border-box;
-  background: #fff;
-  color: #15DEA5;
+  background: #ffffff;
+  color: #042c21;
   height: 100%;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto";
 }
 
 .container {
@@ -26,9 +26,9 @@ body {
 }
 
 .btn {
-  background: #3b546d;
-  color: #15DEA5;
-  font-size: 3rem;
+  background: rgba(171, 201, 154, 0.4666666667);
+  color: #042c21;
+  font-size: 1rem;
   cursor: pointer;
   padding: 1.85rem 3rem;
   border-radius: 10rem;

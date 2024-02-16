@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  background: #fff;
+  color: #15DEA5;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background: #3b546d;
+  color: #15DEA5;
+  font-size: 3rem;
+  cursor: pointer;
+  padding: 1.85rem 3rem;
+  border-radius: 10rem;
+  transition: transform 200ms;
+}
+.btn:hover {
+  transform: scale(1.15);
+}/*# sourceMappingURL=style.css.map */
